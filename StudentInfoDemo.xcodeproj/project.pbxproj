@@ -11,6 +11,7 @@
 		704373DE1FDE55F40003A548 /* QueryStudentInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704373DD1FDE55F40003A548 /* QueryStudentInfoViewController.m */; };
 		704373E51FDE57930003A548 /* QueryTopRemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 704373E41FDE57930003A548 /* QueryTopRemindView.m */; };
 		704373E81FDE5AF80003A548 /* QueryStudentTextFeildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 704373E71FDE5AF80003A548 /* QueryStudentTextFeildView.m */; };
+		70667CC81FDFDF10006829F1 /* CommonLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70667CC71FDFDF10006829F1 /* CommonLabel.m */; };
 		70D910891FDA65E8008BBA62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D910881FDA65E8008BBA62 /* AppDelegate.m */; };
 		70D9108C1FDA65E8008BBA62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D9108B1FDA65E8008BBA62 /* ViewController.m */; };
 		70D9108F1FDA65E8008BBA62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D9108D1FDA65E8008BBA62 /* Main.storyboard */; };
@@ -52,6 +53,8 @@
 		704373E41FDE57930003A548 /* QueryTopRemindView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueryTopRemindView.m; sourceTree = "<group>"; };
 		704373E61FDE5AF80003A548 /* QueryStudentTextFeildView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueryStudentTextFeildView.h; sourceTree = "<group>"; };
 		704373E71FDE5AF80003A548 /* QueryStudentTextFeildView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueryStudentTextFeildView.m; sourceTree = "<group>"; };
+		70667CC61FDFDF10006829F1 /* CommonLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonLabel.h; sourceTree = "<group>"; };
+		70667CC71FDFDF10006829F1 /* CommonLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonLabel.m; sourceTree = "<group>"; };
 		70D17AD21FDE23F500CAC363 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		70D910841FDA65E8008BBA62 /* StudentInfoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentInfoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D910871FDA65E8008BBA62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -186,6 +189,15 @@
 			path = QueryStudentView;
 			sourceTree = "<group>";
 		};
+		70667CC51FDFDEF3006829F1 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				70667CC61FDFDF10006829F1 /* CommonLabel.h */,
+				70667CC71FDFDF10006829F1 /* CommonLabel.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		70D9107B1FDA65E8008BBA62 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +222,7 @@
 		70D910861FDA65E8008BBA62 /* StudentInfoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				70667CC51FDFDEF3006829F1 /* common */,
 				704373D51FDE51EA0003A548 /* APPDelegate */,
 				704373D81FDE52720003A548 /* Model */,
 				704373D71FDE523D0003A548 /* StudentInfoView */,
@@ -388,6 +401,7 @@
 				70D910891FDA65E8008BBA62 /* AppDelegate.m in Sources */,
 				70D9109A1FDA65E8008BBA62 /* main.m in Sources */,
 				70D910C41FDA6C20008BBA62 /* StudentInfoCell.m in Sources */,
+				70667CC81FDFDF10006829F1 /* CommonLabel.m in Sources */,
 				70D910C11FDA69E4008BBA62 /* StudentInfoModel.m in Sources */,
 				70D910BE1FDA66C0008BBA62 /* StudentHeaderView.m in Sources */,
 				704373DB1FDE52C80003A548 /* EnteringStudentInfoViewController.m in Sources */,
